@@ -35,8 +35,9 @@
 }
   .horizontal-line {
       border-top: 1px solid #ccc; /* 선의 두께와 색상 설정 */
-      width: 80%; /* 길이 설정*/
-      margin: 20px 0; /* 원하는 여백 설정 */
+      width: 60%; /* 선의 전체 길이를 설정 (전체 너비에서 양쪽 여백을 뺀 값) */
+      margin: 20px auto; /* 위, 아래 여백을 설정하고 가운데 정렬 */
+      box-sizing: border-box; /* 여백과 패딩을 포함하여 전체 너비를 계산하도록 함 */
     }
   </style>
 </head>
@@ -71,7 +72,7 @@
 			        <li><a href="organization.html">조직도</a></li>
               <li><a href="certification.html">인증현황</a></li>
 			        <li><a href="welfare.html">복리후생</a></li>
-			
+              <li><a href="partners.html">협력사 및 고객사</a></li>			
             </ul>
           </li>
           <li class="dropdown">
@@ -102,14 +103,7 @@
               <li><a href="sapse.html">SAP SE</a></li>                                                       				
 			  
             </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Partners<b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="partners.html">협력사</a></li>                                                       
-              <li><a href="customer.html">고객사</a></li>                                                       				
-            </ul>
-          </li>   
+          </li>  
 
            <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us <b class="caret"></b></a>
